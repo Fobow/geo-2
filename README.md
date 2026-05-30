@@ -35,15 +35,25 @@ We present 𝗚𝗲𝗼², a unified framework that leverages geometric priors f
 ## Installation
 
 ### CVGL
-Our Cross-view Geo-Localization module leverages geometric priors from 3D foundation models like VGGT for geo-localization task. 
+Our Cross-view Geo-Localization module leverages geometric priors from 3D foundation models like VGGT for geo-localization task. We keep the VGGT backbone frozon, and only training a lightweight head. Please follow VGGT to set up the environment.
+
+```
+git clone git@github.com:facebookresearch/vggt.git 
+cd vggt
+pip install -r requirements.txt
+```
 
 ### CVIS
 Our Cross-view Image systhesis module achieves bi-directional image generation from both ground-to-satellite and satellite-to-ground.
 
+```
+git clone https://github.com/bytetriper/RAE.git
+cd RAE
+pip install huggingface_hub
+hf download nyu-visionx/RAE-collections \
+  --local-dir models 
+```
+
 ## Model Weights
 
 Coming soon.
-
----
-
-## BibTeX
