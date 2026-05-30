@@ -2,7 +2,7 @@
 <h1>Geo²: Geometry-Guided Cross-view Geo-Localization and Image Synthesis </h1>
 
 <a href="https://arxiv.org/abs/2603.25819"><img src="https://img.shields.io/badge/arXiv-2603.25819-b31b1b" alt="arXiv"></a>
-<a href="https://geo2-cvgl.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+<a href="https://fobow.github.io/geo2.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 
 <p>
   <a href="https://yanchengzhang.com/">Yancheng Zhang</a><sup>1</sup>,
