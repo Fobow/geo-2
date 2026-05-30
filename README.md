@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 
 ### CVIS
-Our Cross-view Image systhesis module achieves bi-directional image generation from both ground-to-satellite and satellite-to-ground.
+Our Cross-view Image systhesis module achieves bi-directional image generation from both ground-to-satellite and satellite-to-ground. We use pretrained decoder from RAE.
 
 ```
 git clone https://github.com/bytetriper/RAE.git
